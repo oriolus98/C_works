@@ -1,6 +1,6 @@
 /****************************************************************************/
-/* Programa: Algoritme de gestiÛ i cerca de Fis - Darling                   */
-/* Autor: Oriol de la Pau ChacÛn i Albero                                   */
+/* Programa: Algoritme de gesti√≥ i cerca de Fis - Darling                   */
+/* Autor: Oriol de la Pau Chac√≥n i Albero                                   */
 /* Objectiu: administrar una xarxa d'usuaris que cerquen parella            */
 /****************************************************************************/
 
@@ -63,7 +63,7 @@ void  FinalPrograma (usuari v[TAM], int quants);
 
 
 /*
- *  FunciÛ principal
+ *  Funci√≥ principal
  */
  
 
@@ -138,12 +138,12 @@ int main ()
 
 
 
-/*  ImplementaciÛ de les funcions  */
+/*  Implementaci√≥ de les funcions  */
 
 
 
 /********************************************************/
-/* FuniÛ: CarregaFitxer                                 */
+/* Funi√≥: CarregaFitxer                                 */
 /* Rep el vector buit i hi emplena les dades del vector */
 /* Retorna el nombre d'usuaris                          */
 /********************************************************/
@@ -202,9 +202,9 @@ int CarregaFitxer (usuari v[TAM])
 
 
 /******************************************************************/
-/* FunciÛ: OcionsMenu                                             */
-/* Presenta les diferents opcions del men˙ principal del programa */
-/* Retorna l'opciÛ escollida per l'usuari                         */
+/* Funci√≥: OcionsMenu                                             */
+/* Presenta les diferents opcions del men√∫ principal del programa */
+/* Retorna l'opci√≥ escollida per l'usuari                         */
 /******************************************************************/
 
 int OpcionsMenu ()
@@ -222,8 +222,8 @@ int OpcionsMenu ()
 
 
 /**********************************************************************************************/
-/* FunciÛ booleana: ComprovarCorreu                                                           */
-/* Recorre el vector i retorna un boole‡: si ha trobat el correu que ha rebut per valor o no  */
+/* Funci√≥ booleana: ComprovarCorreu                                                           */
+/* Recorre el vector i retorna un boole√†: si ha trobat el correu que ha rebut per valor o no  */
 /**********************************************************************************************/
 
 bool ComprovarCorreu (usuari v[TAM], string comprovat, int quants)
@@ -243,9 +243,9 @@ bool ComprovarCorreu (usuari v[TAM], string comprovat, int quants)
 
 
 /***********************************************************************************/
-/* FunciÛ: TrobarPosiciÛ                                                           */
-/* Rep el vector i una estructura usuari, i en retorna la seua posiciÛ al vector   */
-/* ordenat alfabËticament pel nom                                                  */
+/* Funci√≥: TrobarPosici√≥                                                           */
+/* Rep el vector i una estructura usuari, i en retorna la seua posici√≥ al vector   */
+/* ordenat alfab√®ticament pel nom                                                  */
 /***********************************************************************************/
 
 int TrobarPosicio (usuari v[TAM], int quants, usuari nou)
@@ -264,10 +264,10 @@ int TrobarPosicio (usuari v[TAM], int quants, usuari nou)
 
 
 /****************************************************************************/
-/* FunciÛ: InserirFitxa                                                     */
-/* Rep les dades d'un usuari i les inserix en el vector en la seua posiciÛ  */
-/* ordenat alfabËticament. Rep per referËncia el nombre d'usuaris i canvia  */
-/* el seu valor, ja que hi ha un usuari mÈs.                                */
+/* Funci√≥: InserirFitxa                                                     */
+/* Rep les dades d'un usuari i les inserix en el vector en la seua posici√≥  */
+/* ordenat alfab√®ticament. Rep per refer√®ncia el nombre d'usuaris i canvia  */
+/* el seu valor, ja que hi ha un usuari m√©s.                                */
 /****************************************************************************/
 
 void InserirFitxa (usuari v[TAM], int & quants, usuari nou)
@@ -350,7 +350,7 @@ void NovaFitxa (usuari v[TAM], int & quants)
 
 
 /******************************************************************************/
-/* FunciÛ: MostrarLlista                                                      */
+/* Funci√≥: MostrarLlista                                                      */
 /* Rep el vector i el nombre d'usuaris i els mostra tots per pantalla         */
 /******************************************************************************/
 
@@ -370,7 +370,7 @@ void MostrarLlista (usuari v[TAM], int quants)
 
 
 /***********************************************************************/
-/* Retorna la posiciÛ d'un usuari al vector buscat pel correu          */
+/* Retorna la posici√≥ d'un usuari al vector buscat pel correu          */
 /***********************************************************************/
 
 int CercarUsuari (usuari v[TAM], int quants, string correu)
@@ -388,7 +388,7 @@ int CercarUsuari (usuari v[TAM], int quants, string correu)
 
 
 /*********************************************************************/
-/* Retorna la posiciÛ d'un usuari al vector buscat pel correu        */
+/* Retorna la posici√≥ d'un usuari al vector buscat pel correu        */
 /*********************************************************************/
 
 
@@ -504,8 +504,8 @@ void ModificarFitxa (usuari v[TAM], int quants)
 
 
 /**********************************************************************/
-/* Esborra una fitxa. Rep per referËncia el nombre d'usuaris, ja que  */
-/* ser‡ un de menys                                                   */
+/* Esborra una fitxa. Rep per refer√®ncia el nombre d'usuaris, ja que  */
+/* ser√† un de menys                                                   */
 /**********************************************************************/
 
 void EsborrarFitxa (usuari v[TAM], int & quants)
@@ -609,9 +609,9 @@ void InserirOrdenat (usuari v[TAM], int n, usuari insertat, usuari buscat)
 
 
 /************************************************************/
-/* Mostra el topcinc d'usuaris mÈs propers a un introduit   */
+/* Mostra el topcinc d'usuaris m√©s propers a un introduit   */
 /* per l'usuari: inserix tots els usuaris en un vector      */
-/* Ordenadament per la dist‡ncia de Manhattan               */
+/* Ordenadament per la dist√†ncia de Manhattan               */
 /************************************************************/
 
 void ProximitatGeografica (usuari v[TAM], int quants)
@@ -635,7 +635,7 @@ void ProximitatGeografica (usuari v[TAM], int quants)
 		i += 1;
 	}
 	
-	k = 0;		// Eliminem del ranquing a l'usuari que busc‡vem
+	k = 0;		// Eliminem del ranquing a l'usuari que busc√†vem
 	do
 	{		
 		if (topcinc[k].nom == buscat.nom)	
@@ -714,7 +714,7 @@ void AfinitatGustos (usuari v[TAM], int quants)
 	}
 
 		
-	k = 0;		//  Eliminem del r‡nquing a l'usuari que busc‡vem.
+	k = 0;		//  Eliminem del r√†nquing a l'usuari que busc√†vem.
 	do
 	{		
 		if (topcinc[k].nom == buscat.nom)	
@@ -739,16 +739,16 @@ void CercaMulticriteri (usuari v[TAM], int quants)
 {
 	int     pos;
 	int     i, j, k;
-	int     mt_dis;  	//  Multiplicador de dist‡ncia geogr‡fica
-	int     mt_sex;  	// Multiplicador de diferËncia de sexe
+	int     mt_dis;  	//  Multiplicador de dist√†ncia geogr√†fica
+	int     mt_sex;  	// Multiplicador de difer√®ncia de sexe
 	int     mt_mc;  	//  Multiplicador de similitud d'aficions
-	int     mt_edat;  	// Multiplicador de diferËncia d'edat  
+	int     mt_edat;  	// Multiplicador de difer√®ncia d'edat  
 	string  correu;
 	usuari  buscat;
-	float   dis;		//  Valor de dist‡ncia geogr‡fica utilitzat en l'equciÛ final que ens dona l'afinitat entre dos usuaris
-	int     dif_edat;		// DiferËncia d'edat: per a l'equaciÛ final
-	int     dif_sexe;		// DiferËncia de sexe: per a l'equaciÛ final
-	int     af;			// Valor de l'afinitat d'interessos utilitzat en l'equaciÛ final
+	float   dis;		//  Valor de dist√†ncia geogr√†fica utilitzat en l'equci√≥ final que ens dona l'afinitat entre dos usuaris
+	int     dif_edat;		// Difer√®ncia d'edat: per a l'equaci√≥ final
+	int     dif_sexe;		// Difer√®ncia de sexe: per a l'equaci√≥ final
+	int     af;			// Valor de l'afinitat d'interessos utilitzat en l'equaci√≥ final
 	struct topcinc   llista [TAM];
 	struct topcinc   aux;
 	bool    canviat = false;
@@ -807,16 +807,16 @@ void CercaMulticriteri (usuari v[TAM], int quants)
 		for (i = 0; i < quants; i++)
 		{
 			dis = DistanciaUsuaris (buscat, v[i]);
-			dis =  8 * dis / 260; //		Com la dist‡ncia m‡xima de Manhattan a la Terra Ès aproximadament de 260, i l'afinitat de cinema i m˙sica s'expressa en un rang entre 0 i 8, expressem la dist‡ncia geogr‡fica en un rang entre 0 i 8 tambÈ.
-			dis = 8 - dis;  //		Faig la transformaciÛ  a la inversa, ja que abans els nombres mÈs petits eren els de mÈs afinitat i vull que siga al revÈs;
+			dis =  8 * dis / 260; //		Com la dist√†ncia m√†xima de Manhattan a la Terra √©s aproximadament de 260, i l'afinitat de cinema i m√∫sica s'expressa en un rang entre 0 i 8, expressem la dist√†ncia geogr√†fica en un rang entre 0 i 8 tamb√©.
+			dis = 8 - dis;  //		Faig la transformaci√≥  a la inversa, ja que abans els nombres m√©s petits eren els de m√©s afinitat i vull que siga al rev√©s;
 			dis *= mt_dis;
 			
 			af = AfinitatUsuaris(buscat, v[i]);
-			af = 8 - af; //		Faig la transformaciÛ  a la inversa, ja que abans els nombres mÈs petits eren els de mÈs afinitat i vull que siga al revÈs.
+			af = 8 - af; //		Faig la transformaci√≥  a la inversa, ja que abans els nombres m√©s petits eren els de m√©s afinitat i vull que siga al rev√©s.
 			af *= mt_mc;
 			
 			dif_edat = abs (buscat.any - v[i].any);
-			dif_edat = 8 * dif_edat / 70;  //		Igual que en la dist‡ncia geogr‡fica, prenent 70 com a diferËncia d'edat m‡xima, l'expresse en un rang entre 0 i 8.
+			dif_edat = 8 * dif_edat / 70;  //		Igual que en la dist√†ncia geogr√†fica, prenent 70 com a difer√®ncia d'edat m√†xima, l'expresse en un rang entre 0 i 8.
 			dif_edat = 8 - dif_edat;
 			dif_edat *= mt_edat;
 			
@@ -833,7 +833,7 @@ void CercaMulticriteri (usuari v[TAM], int quants)
 			llista[i].puntuacio = dif_sexe + dif_edat + af + dis;
 		}
 		
-		for (i = 1; i < quants; i++)		//  Ordenem els usuaris de manera que la puntuaciÛ mÈs alta (m‡xima afinitat) queda el primer
+		for (i = 1; i < quants; i++)		//  Ordenem els usuaris de manera que la puntuaci√≥ m√©s alta (m√†xima afinitat) queda el primer
 		{
 			for (j = 0; j < quants - 1; j++)
 			{
