@@ -1,0 +1,60 @@
+Cogollos, Ferran
+ferran_cogollos@uv.es
+39	0	1979	h
+4	2
+Cooper, Sheldon
+imagenius@mit.us
+42	-71	1980	h
+1	3
+Curie, Marie
+poloniotxk@ups.fr
+49	2	1867	d
+4	1
+Echenique, Pablo
+elruedes@outlook.es
+42	-1	1978	h
+4	4
+Hortelano, Lorenzo
+loshombresdeloren@hotmail.com
+38	0	1992	h
+2	1
+Jimenez, Manu
+elxokas@alumni.uv.es
+39	0	1994	h
+4	5
+Merkel, Angela
+herrangela@munchen.com
+52	13	1954	d
+4	5
+Noether, Emmy
+iluvsimmetry@physics.com
+49	11	1954	d
+2	3
+Olayo, Nacho
+nchete_bm@uv.es
+73	-5	1998	h
+2	1
+Puchades, Paula
+puchi1999@mainzu.de
+50	8	1999	d
+4	2
+Sinjh, Moha
+moha1996@u-psud.fr
+48	2	1996	h
+4	2
+Soler, Rafa
+rafeta666@gmail.com
+40	-74	1996	h
+5	2
+Soria, Arturo
+chiringuito@tss.es
+39	-8	1989	h
+4	2
+Travis, Antonia
+lagossa@hotmail.com
+38	1	2001	d
+2	1
+Tula, Candela
+elcuarto@outlook.com
+48	11	1999	d
+4	4
