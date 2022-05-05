@@ -1,4 +1,4 @@
 # Fisdarling code & love
-Trabajo final de la asignatura Introducción a la Programación del grado en física de la Universitat de Valencia, implementado en C++.
+Final assignment for my course on 'Introduction to programming', while studying Physics Bachelor at Universitat de València.
 
-Implementa las funciones básicas de una aplicación de búsqueda de pareja: carga de una pequeña base de datos desde un fichero externo ('usuarisfis.txt'); introducción, modificación o eliminación de ususarios de la base de datos; así como algoritmo de selección de un top-cinco de parejas recomendadas en función de la distancia o por gustos. Mi primer contacto con el mundo de la programación.
+The script 'fisdarling_code.cpp' implements in C++ the basic functionalities of a partner seeking app: loading of an small database from an external file ('usuarisfis.txt'); inserting, modifying or deleting clients from the database; as well as a recommendation algorithm for a top-five of partner candidates, based on distance or personal tastes. This was my first approach to programming.
